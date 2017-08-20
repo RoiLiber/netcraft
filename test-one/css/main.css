@@ -1,0 +1,28 @@
+body {
+  background-color: orange;
+}
+
+header {
+  background-color: green;
+  height: 40px;
+  text-align: center;
+}
+
+nav {
+  background-color: green;
+  height: 30px;
+  text-align: center;
+  margin: 5px;
+}
+
+main {
+  background-color: red;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  display: flex;
+  height: 50px;
+  width: 50px;
+}

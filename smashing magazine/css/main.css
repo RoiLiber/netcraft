@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration-color: #EEEEEE;
+}
+
+.main {
+  display: flex;
+  margin: 5px;
+  border: 10px;
+  border-color: blue;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+hr {
+  color: blue;
+}
+
+.date {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.date a {
+  display: flex;
+  width: 300px;
+}
+
+section {
+  display: flex;
+  margin-bottom: 10px;
+  border-bottom: 5px;
+  border-color: blue;
+}
+
+h3 {
+  margin-left: 15px;
+}
+
+h1 {
+  color: black;
+}
+
+img {
+  max-width: 500px;
+  display: flex;
+  flex-basis: 50%;
+}
+
+.header {
+  display: flex;
+  background-color: #EEEEEE;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+}
+
+header a {
+  max-width: 200px;
+  display: flex;
+  margin: 5px;
+}
+
+ul {
+  display: inline-table;
+  margin-right: 100px;
+  list-style-type: none;
+}
+
+ul li a {
+  color: blue;
+}
+
+.menu {
+  display: flex;
+  width: 200px;
+}
+
+footer {
+  background-color: #EEEEEE;
+}
+
+p {
+  font-size: 22px;
+}
+
+header button {
+  background-color: red;
+  width: 80px;
+  height: 50px;
+}
+
+menu {
+  display: none;
+}
